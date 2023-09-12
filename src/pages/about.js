@@ -9,9 +9,9 @@ const Aboutus = () => {
         i18next.changeLanguage(e.target.value)
     }
     return(
-        <div style={{marginTop:'50px'}}>
+        <div>
             <Menu onChange={(e)=> handleClick(e)}/>
-            
+          <h1 style={{marginTop:'50px'}}> {t('About')}  {t('Albert Einstein')} </h1>
         </div>
        
     )
