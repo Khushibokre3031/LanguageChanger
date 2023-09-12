@@ -1,9 +1,25 @@
-.menu-wrapper{
-    margin-top: 20px;
-}
-.menu-wrapper a{
-    padding: 20px;
 
-    border: 1px solid #000;
-
+.nav{
+    background-color: #E8E1EF;
 }
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding :5px;
+    margin:5px;
+    font-weight: bold;
+}
+
+ .drop-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1000px;
+}
+
+ select {
+    background-color: #E8E1EF;
+    font-weight: bold;
+}
+
